@@ -2,8 +2,8 @@
   "name": "cypress-study",
   "version": "1.0.0",
   "scripts": {
+    "cy": "cypress open",
     "cy.run": "cypress run",
-    "cy.open": "cypress open",
     "jest": "jest --verbose",
     "git": "git add . && git commit -a -m $M"
   },
