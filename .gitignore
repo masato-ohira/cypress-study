@@ -4,6 +4,7 @@
 logs
 .env
 .htaccess
+cypress.env.json
 
 *.log
 npm-debug.log*
