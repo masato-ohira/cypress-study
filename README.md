@@ -1,19 +1,12 @@
-## setup
-
-### install
+## 主要コマンド
 
 ```bash
-yarn add cypress -D
-```
+# cypress起動
+yarn cy
 
-### 初期化
+# cypressをヘッドレスで実行
+yarn cy.run
 
-```bash
-npx cypress open
-```
-
-### 起動
-
-```bash
-yarn test
+# jestのテストを実行
+yarn jest
 ```
